@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
             Intent intent = new Intent(MainActivity.this, SecondActivity.class);
             intent.putExtra("name", "Andreas");
+            intent.putExtra("surname", "Ljung");
             startActivity(intent);
             }
         });
